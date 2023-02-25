@@ -1,20 +1,12 @@
 // SPDX-License-Identifier: MIT
-pragma solidity ^0.8.17;
-
-
-interface IERC20 {
-    // mapping(address => uint) public balances;
-
-     function totalSupply() external view returns (uint);
-      function balanceOf(address _owner) external returns (uint balance);
-}
+pragma solidity ^0.8.9;
 contract gethigestholder {
 
-    IERC20 usdt;
+    // IERC20 usdt;
     address[] holders;
-    constructor() {
-        usdt = IERC20(0xdAC17F958D2ee523a2206206994597C13D831ec7);
-    }
+    // constructor() {
+    //     usdt = IERC20(0xdAC17F958D2ee523a2206206994597C13D831ec7);
+    // }
 
     //  function getHighestHolder(address tokenAddress) public view returns (address) {
     //     IERC20 token = IERC20(tokenAddress);
