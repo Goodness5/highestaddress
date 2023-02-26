@@ -12,8 +12,6 @@ async function getHighestHolder() {
   console.log(`highest holder address of usdt is ${highestHolder}`);
   return highestHolder;
 
-  Contract.deployed();
-  console.log(Contract.add)
 }
 
 
