@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.9;
-contract gethigestholder {
+// contract gethigestholder {
 
     // IERC20 usdt;
-    address[] holders;
+    // address[] holders;
     // constructor() {
     //     usdt = IERC20(0xdAC17F958D2ee523a2206206994597C13D831ec7);
     // }
