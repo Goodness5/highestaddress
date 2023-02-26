@@ -1,4 +1,4 @@
-import { ethers } from 'ethers';
+import { Contract, ethers } from 'ethers';
 import dotenv from 'dotenv';
 
 dotenv.config();
@@ -11,6 +11,9 @@ async function getHighestHolder() {
   const highestHolder = data.holders[0];
   console.log(`highest holder address of usdt is ${highestHolder}`);
   return highestHolder;
+
+  Contract.deployed();
+  console.log(Contract.add)
 }
 
 
