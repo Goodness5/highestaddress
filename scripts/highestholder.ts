@@ -9,7 +9,7 @@ async function getHighestHolder() {
   );
   const data = await response.json();
   const highestHolder = data.holders[0];
-  console.log(`highest holder's address of USDT is ${highestHolder}`);
+  console.log(`the address ofhighest holder's address of USDT is ${highestHolder}`);
   return highestHolder;
 
 }
